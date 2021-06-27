@@ -1,17 +1,17 @@
 # React Stonemason
 This is based on react-photo-gallery. It has added support for things other than images, and the column layout was removed, as there are better options available for a responsive column layout.
 
-[//]  # ( [![Join the chat at https://gitter.im/react-photo-gallery/Lobby](https://badges.gitter.im/react-photo-gallery/Lobby.svg)](https://gitter.im/react-photo-gallery/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) )
+<!--[![Join the chat at https://gitter.im/react-photo-gallery/Lobby](https://badges.gitter.im/react-photo-gallery/Lobby.svg)](https://gitter.im/react-photo-gallery/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) -->
 
-[//]: # ( [![npm version](https://badge.fury.io/js/react-photo-gallery.svg)](https://badge.fury.io/js/react-photo-gallery) )
+<!-- [![npm version](https://badge.fury.io/js/react-photo-gallery.svg)](https://badge.fury.io/js/react-photo-gallery) -->
 
-[//]: # ( ![npm downloads](https://img.shields.io/npm/dt/react-photo-gallery.svg) )
+<!-- ![npm downloads](https://img.shields.io/npm/dt/react-photo-gallery.svg) -->
 
-[//]: # ( [![Build Status](https://travis-ci.org/neptunian/react-photo-gallery.svg?branch=master)](https://travis-ci.org/neptunian/react-photo-gallery) )
+<!-- [![Build Status](https://travis-ci.org/neptunian/react-photo-gallery.svg?branch=master)](https://travis-ci.org/neptunian/react-photo-gallery) -->
 
-[//]: # ( [![Coverage Status](https://coveralls.io/repos/github/neptunian/react-photo-gallery/badge.svg?branch=master)](https://coveralls.io/github/neptunian/react-photo-gallery?branch=master) )
+<!-- [![Coverage Status](https://coveralls.io/repos/github/neptunian/react-photo-gallery/badge.svg?branch=master)](https://coveralls.io/github/neptunian/react-photo-gallery?branch=master) -->
 
-[//]: # ( [![Dependency Status](https://david-dm.org/neptunian/react-photo-gallery.svg)](https://david-dm.org/neptunian/react-photo-gallery) )
+<!-- [![Dependency Status](https://david-dm.org/neptunian/react-photo-gallery.svg)](https://david-dm.org/neptunian/react-photo-gallery) -->
 
 * Maintains the original aspect ratio of your components (usually images)
 * Creates a masonry or justified grid
@@ -20,7 +20,7 @@ This is based on react-photo-gallery. It has added support for things other than
 
 ## Preview
 
-<img src="https://live.staticflickr.com/65535/40680327133_6f6218bfa3.jpg" />
+<img alt="preview" src="https://live.staticflickr.com/65535/40680327133_6f6218bfa3.jpg" />
 
 
 ## Installation
