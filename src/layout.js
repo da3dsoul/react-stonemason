@@ -72,10 +72,13 @@ export const computeRowLayout = ({ containerWidth, limitNodeSearch, targetRowHei
     const row = photos.slice(path[i - 1], path[i]);
     const height = getCommonHeight(row, containerWidth, margin);
     for (let j = path[i - 1]; j < path[i]; ++j) {
-      const newWidth = round(height * ratio(photos[j]), 1) + 'px'
+      const p = photos[j];
+      const newWidth = round(height * ratio(p), 1) + 'px'
       const newHeight = round(height, 1) + 'px'
       const newStyle = typeof(margin) === "undefined" ? {width: newWidth, height: newHeight} : {width: newWidth, height: newHeight, margin: margin + 'px'};
-      photos[j] = cloneElement(photos[j], { style : { ...photos[j].style, ...newStyle} })
+      const style = p.style || p.props.style
+      const newProps = { ...(p.props || {}), style : { ...style, ...newStyle} }
+      photos[j] = cloneElement(photos[j], newProps, ...(p.props.children || []))
     }
   }
   return photos;

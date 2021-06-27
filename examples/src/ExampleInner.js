@@ -1,15 +1,14 @@
 import React from 'react';
 import Stonemason from 'react-stonemason';
 
-const ExampleBasic = ({title, photos}) => {
+const ExampleInner = (props) => {
+    const photo = props.photo
     return (
-      <div>
-        <h2>{title}</h2>
-        <Stonemason>
-            {photos}
-        </Stonemason>
-      </div>
+        <div key={props.key} style={{display: 'flex', flexDirection: 'column', backgroundColor: '#aaaaaa', ...(props.style || {})}}>
+            <img src={photo.src} alt={photo.title} style={{width: '100%', objectFit: 'contain'}}/>
+            <h1>{photo.title}</h1>
+        </div>
     );
 }
 
-export default ExampleBasic;
+export default ExampleInner;

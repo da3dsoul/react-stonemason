@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import jsonp from 'jsonp';
 import ExampleBasic from './ExampleBasic';
+import ExampleInner from "./ExampleInner";
 
 class App extends React.Component {
   constructor() {
@@ -54,10 +55,9 @@ class App extends React.Component {
 
   render() {
     if (this.state.photos) {
-      const width = this.state.width;
       return (
         <div className="App">
-          <ExampleBasic title={'Basic Row Layout'} photos={this.state.photos.slice(0, 20).map(a => <img key={a.key || a.src} src={a.src} alt={a.title} width={a.width} height={a.height} />)} />
+          <ExampleBasic title={'Basic Row Layout'} photos={this.state.photos.slice(0, 20).map(a => <ExampleInner photo={a} key={a.key || a.src} width={a.width} height={(a.height + 200)} />)} />
         </div>
       );
     } else {
