@@ -1,318 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Gallery it matches correct snapshot 1`] = `
-<Gallery
-  direction="row"
+exports[`Stonemason it matches correct snapshot 1`] = `
+<Stonemason
   margin={2}
-  onClick={[MockFunction]}
-  photos={
-    Array [
-      Object {
-        "alt": "DSC02576",
-        "height": 250.44444444444446,
-        "key": "40673436833",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/40673436833_5fc1ab52fe_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/40673436833_5fc1ab52fe.jpg 500w",
-          "https://live.staticflickr.com/65535/40673436833_5fc1ab52fe_c.jpg 800w",
-          "https://live.staticflickr.com/65535/40673436833_5fc1ab52fe_b.jpg 1024w",
-          "https://live.staticflickr.com/65535/40673436833_6f245db6aa_h.jpg 1600w",
-        ],
-        "title": "DSC02576",
-        "width": 375.7,
-      },
-      Object {
-        "alt": "DSC02565",
-        "height": 250.44444444444446,
-        "key": "47587238132",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/47587238132_4683fdabb2_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/47587238132_4683fdabb2.jpg 500w",
-          "https://live.staticflickr.com/65535/47587238132_4683fdabb2_c.jpg 800w",
-          "https://live.staticflickr.com/65535/47587238132_4683fdabb2_b.jpg 1024w",
-          "https://live.staticflickr.com/65535/47587238132_54f98ac5e9_h.jpg 1600w",
-        ],
-        "title": "DSC02565",
-        "width": 375.7,
-      },
-      Object {
-        "alt": "DSC02548",
-        "height": 250.44444444444446,
-        "key": "32697497947",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/32697497947_7d6dfaf5ec_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/32697497947_7d6dfaf5ec.jpg 500w",
-          "https://live.staticflickr.com/65535/32697497947_7d6dfaf5ec_c.jpg 800w",
-          "https://live.staticflickr.com/65535/32697497947_7d6dfaf5ec_b.jpg 1024w",
-          "https://live.staticflickr.com/65535/32697497947_81c6d9139e_h.jpg 1600w",
-        ],
-        "title": "DSC02548",
-        "width": 375.7,
-      },
-      Object {
-        "alt": "DSC02540",
-        "height": 250.44444444444446,
-        "key": "32697497647",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/32697497647_31cd88c0b5_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/32697497647_31cd88c0b5.jpg 500w",
-          "https://live.staticflickr.com/65535/32697497647_31cd88c0b5_c.jpg 800w",
-          "https://live.staticflickr.com/65535/32697497647_31cd88c0b5_b.jpg 1024w",
-          "https://live.staticflickr.com/65535/32697497647_7a36437b05_h.jpg 1600w",
-        ],
-        "title": "DSC02540",
-        "width": 375.7,
-      },
-      Object {
-        "alt": "DSC02535",
-        "height": 250.44444444444446,
-        "key": "47587238242",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/47587238242_6776b8a582_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/47587238242_6776b8a582.jpg 500w",
-          "https://live.staticflickr.com/65535/47587238242_6776b8a582_c.jpg 800w",
-          "https://live.staticflickr.com/65535/47587238242_6776b8a582_b.jpg 1024w",
-          "https://live.staticflickr.com/65535/47587238242_feab7e0aa0_h.jpg 1600w",
-        ],
-        "title": "DSC02535",
-        "width": 375.7,
-      },
-      Object {
-        "alt": "DSC02520",
-        "height": 250.44444444444446,
-        "key": "40673437163",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/40673437163_703ffe416d_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/40673437163_703ffe416d.jpg 500w",
-          "https://live.staticflickr.com/65535/40673437163_703ffe416d_c.jpg 800w",
-          "https://live.staticflickr.com/65535/40673437163_703ffe416d_b.jpg 1024w",
-          "https://live.staticflickr.com/65535/40673437163_7f4a4d66f2_h.jpg 1600w",
-        ],
-        "title": "DSC02520",
-        "width": 375.7,
-      },
-      Object {
-        "alt": "DSC02494",
-        "height": 332.64705882352945,
-        "key": "47587238362",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/47587238362_5d355937cb_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/47587238362_5d355937cb.jpg 500w",
-          "https://live.staticflickr.com/65535/47587238362_5d355937cb_c.jpg 800w",
-          "https://live.staticflickr.com/65535/47587238362_5d355937cb_b.jpg 1024w",
-          "https://live.staticflickr.com/65535/47587238362_65fe216f4b_h.jpg 1600w",
-        ],
-        "title": "DSC02494",
-        "width": 499,
-      },
-      Object {
-        "alt": "DSC02492",
-        "height": 332.64705882352945,
-        "key": "32697498187",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/32697498187_7a74849c76_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/32697498187_7a74849c76.jpg 500w",
-          "https://live.staticflickr.com/65535/32697498187_7a74849c76_c.jpg 800w",
-          "https://live.staticflickr.com/65535/32697498187_7a74849c76_b.jpg 1024w",
-          "https://live.staticflickr.com/65535/32697498187_9d07b79e86_h.jpg 1600w",
-        ],
-        "title": "DSC02492",
-        "width": 632,
-      },
-      Object {
-        "alt": "DSC02489",
-        "height": 241.32762312633832,
-        "key": "40673436913",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/40673436913_c48ac9e6d5_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/40673436913_c48ac9e6d5.jpg 500w",
-          "https://live.staticflickr.com/65535/40673436913_c48ac9e6d5_c.jpg 800w",
-          "https://live.staticflickr.com/65535/40673436913_c48ac9e6d5_b.jpg 1024w",
-          "https://live.staticflickr.com/65535/40673436913_dbb2320a41_h.jpg 1600w",
-        ],
-        "title": "DSC02489",
-        "width": 362,
-      },
-      Object {
-        "alt": "DSC02479",
-        "height": 241.32762312633832,
-        "key": "40673437213",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/40673437213_3480e88c8b_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/40673437213_3480e88c8b.jpg 500w",
-          "https://live.staticflickr.com/65535/40673437213_3480e88c8b_c.jpg 800w",
-          "https://live.staticflickr.com/65535/40673437213_3480e88c8b_b.jpg 1024w",
-          "https://live.staticflickr.com/65535/40673437213_5bfff3ef95_h.jpg 1600w",
-        ],
-        "title": "DSC02479",
-        "width": 403,
-      },
-      Object {
-        "alt": "DSC02461",
-        "height": 241.32762312633832,
-        "key": "47587238482",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/47587238482_5ac51de790_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/47587238482_5ac51de790.jpg 500w",
-          "https://live.staticflickr.com/65535/47587238482_5ac51de790_c.jpg 800w",
-          "https://live.staticflickr.com/65535/47587238482_5ac51de790_b.jpg 1024w",
-          "https://live.staticflickr.com/65535/47587238482_b8b1478145_h.jpg 1600w",
-        ],
-        "title": "DSC02461",
-        "width": 362,
-      },
-      Object {
-        "alt": "DSC02460",
-        "height": 252.1252796420582,
-        "key": "32697498227",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/32697498227_a3bc50aa6c_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/32697498227_a3bc50aa6c.jpg 500w",
-          "https://live.staticflickr.com/65535/32697498227_a3bc50aa6c_c.jpg 800w",
-          "https://live.staticflickr.com/65535/32697498227_a3bc50aa6c_b.jpg 1024w",
-          "https://live.staticflickr.com/65535/32697498227_e5a478e65c_h.jpg 1600w",
-        ],
-        "title": "DSC02460",
-        "width": 378.2,
-      },
-      Object {
-        "alt": "DSC02456",
-        "height": 252.1252796420582,
-        "key": "40673437263",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/40673437263_b03be98bae_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/40673437263_b03be98bae.jpg 500w",
-          "https://live.staticflickr.com/65535/40673437263_b03be98bae_c.jpg 800w",
-          "https://live.staticflickr.com/65535/40673437263_b03be98bae_b.jpg 1024w",
-          "https://live.staticflickr.com/65535/40673437263_bebc91464c_h.jpg 1600w",
-        ],
-        "title": "DSC02456",
-        "width": 370.6,
-      },
-      Object {
-        "alt": "DSC02453",
-        "height": 252.1252796420582,
-        "key": "32697497717",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/32697497717_1fb25b32be_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/32697497717_1fb25b32be.jpg 500w",
-          "https://live.staticflickr.com/65535/32697497717_1fb25b32be_c.jpg 800w",
-          "https://live.staticflickr.com/65535/32697497717_1fb25b32be_b.jpg 1024w",
-          "https://live.staticflickr.com/65535/32697497717_4bf3235964_h.jpg 1600w",
-        ],
-        "title": "DSC02453",
-        "width": 378.2,
-      },
-      Object {
-        "alt": "DSC02441",
-        "height": 250.44444444444446,
-        "key": "47587238552",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/47587238552_cfce31cc10_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/47587238552_cfce31cc10.jpg 500w",
-          "https://live.staticflickr.com/65535/47587238552_cfce31cc10_c.jpg 800w",
-          "https://live.staticflickr.com/65535/47587238552_cfce31cc10_b.jpg 1024w",
-          "https://live.staticflickr.com/65535/47587238552_44cd3655ea_h.jpg 1600w",
-        ],
-        "title": "DSC02441",
-        "width": 375.7,
-      },
-      Object {
-        "alt": "DSC02439",
-        "height": 250.44444444444446,
-        "key": "47640016631",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/47640016631_cfffe28dd0_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/47640016631_cfffe28dd0.jpg 500w",
-          "https://live.staticflickr.com/65535/47640016631_cfffe28dd0_c.jpg 800w",
-          "https://live.staticflickr.com/65535/47640016631_cfffe28dd0_b.jpg 1024w",
-          "https://live.staticflickr.com/65535/47640016631_ec4ec9f250_h.jpg 1600w",
-        ],
-        "title": "DSC02439",
-        "width": 375.7,
-      },
-      Object {
-        "alt": "DSC02436",
-        "height": 250.44444444444446,
-        "key": "47640017061",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/47640017061_d6f554a175_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/47640017061_d6f554a175.jpg 500w",
-          "https://live.staticflickr.com/65535/47640017061_d6f554a175_c.jpg 800w",
-          "https://live.staticflickr.com/65535/47640017061_d6f554a175_b.jpg 1024w",
-          "https://live.staticflickr.com/65535/47640017061_cf1fd70288_h.jpg 1600w",
-        ],
-        "title": "DSC02436",
-        "width": 375.7,
-      },
-      Object {
-        "alt": "DSC02435",
-        "height": 254.4018058690745,
-        "key": "32697497787",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/32697497787_ebd9165050_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/32697497787_ebd9165050.jpg 500w",
-          "https://live.staticflickr.com/65535/32697497787_ebd9165050_c.jpg 800w",
-          "https://live.staticflickr.com/65535/32697497787_ebd9165050_b.jpg 1024w",
-          "https://live.staticflickr.com/65535/32697497787_e3c6cb4bc5_h.jpg 1600w",
-        ],
-        "title": "DSC02435",
-        "width": 574.9,
-      },
-      Object {
-        "alt": "DSC02428",
-        "height": 254.4018058690745,
-        "key": "40673437303",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/40673437303_ec8b5a7246_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/40673437303_ec8b5a7246.jpg 333w",
-          "https://live.staticflickr.com/65535/40673437303_ec8b5a7246_c.jpg 533w",
-          "https://live.staticflickr.com/65535/40673437303_ec8b5a7246_b.jpg 682w",
-          "https://live.staticflickr.com/65535/40673437303_c88d6174a2_h.jpg 1065w",
-        ],
-        "title": "DSC02428",
-        "width": 170.4,
-      },
-      Object {
-        "alt": "DSC02427",
-        "height": 254.4018058690745,
-        "key": "46724351385",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/46724351385_a6ff50ddda_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/46724351385_a6ff50ddda.jpg 500w",
-          "https://live.staticflickr.com/65535/46724351385_a6ff50ddda_c.jpg 800w",
-          "https://live.staticflickr.com/65535/46724351385_a6ff50ddda_b.jpg 1024w",
-          "https://live.staticflickr.com/65535/46724351385_3a29cde51c_h.jpg 1600w",
-        ],
-        "title": "DSC02427",
-        "width": 381.6,
-      },
-    ]
-  }
   targetRowHeight={300}
 >
   <div
-    className="react-photo-gallery--gallery"
+    className="react-stonemason--Stonemason"
   >
     <div
       style={
@@ -325,9 +19,8 @@ exports[`Gallery it matches correct snapshot 1`] = `
     >
       <img
         alt="DSC02576"
-        height={250.44444444444446}
+        height={1065}
         key="40673436833"
-        onClick={[Function]}
         sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
         src="https://live.staticflickr.com/65535/40673436833_5fc1ab52fe_b.jpg"
         srcSet={
@@ -340,19 +33,18 @@ exports[`Gallery it matches correct snapshot 1`] = `
         }
         style={
           Object {
-            "cursor": "pointer",
-            "display": "block",
-            "margin": 2,
+            "height": "250.44444444444446px",
+            "margin": "2px",
+            "width": "375.7px",
           }
         }
         title="DSC02576"
-        width={375.7}
+        width={1600}
       />
       <img
         alt="DSC02565"
-        height={250.44444444444446}
+        height={1065}
         key="47587238132"
-        onClick={[Function]}
         sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
         src="https://live.staticflickr.com/65535/47587238132_4683fdabb2_b.jpg"
         srcSet={
@@ -365,19 +57,18 @@ exports[`Gallery it matches correct snapshot 1`] = `
         }
         style={
           Object {
-            "cursor": "pointer",
-            "display": "block",
-            "margin": 2,
+            "height": "250.44444444444446px",
+            "margin": "2px",
+            "width": "375.7px",
           }
         }
         title="DSC02565"
-        width={375.7}
+        width={1600}
       />
       <img
         alt="DSC02548"
-        height={250.44444444444446}
+        height={1065}
         key="32697497947"
-        onClick={[Function]}
         sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
         src="https://live.staticflickr.com/65535/32697497947_7d6dfaf5ec_b.jpg"
         srcSet={
@@ -390,19 +81,18 @@ exports[`Gallery it matches correct snapshot 1`] = `
         }
         style={
           Object {
-            "cursor": "pointer",
-            "display": "block",
-            "margin": 2,
+            "height": "250.44444444444446px",
+            "margin": "2px",
+            "width": "375.7px",
           }
         }
         title="DSC02548"
-        width={375.7}
+        width={1600}
       />
       <img
         alt="DSC02540"
-        height={250.44444444444446}
+        height={1065}
         key="32697497647"
-        onClick={[Function]}
         sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
         src="https://live.staticflickr.com/65535/32697497647_31cd88c0b5_b.jpg"
         srcSet={
@@ -415,19 +105,18 @@ exports[`Gallery it matches correct snapshot 1`] = `
         }
         style={
           Object {
-            "cursor": "pointer",
-            "display": "block",
-            "margin": 2,
+            "height": "250.44444444444446px",
+            "margin": "2px",
+            "width": "375.7px",
           }
         }
         title="DSC02540"
-        width={375.7}
+        width={1600}
       />
       <img
         alt="DSC02535"
-        height={250.44444444444446}
+        height={1065}
         key="47587238242"
-        onClick={[Function]}
         sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
         src="https://live.staticflickr.com/65535/47587238242_6776b8a582_b.jpg"
         srcSet={
@@ -440,19 +129,18 @@ exports[`Gallery it matches correct snapshot 1`] = `
         }
         style={
           Object {
-            "cursor": "pointer",
-            "display": "block",
-            "margin": 2,
+            "height": "250.44444444444446px",
+            "margin": "2px",
+            "width": "375.7px",
           }
         }
         title="DSC02535"
-        width={375.7}
+        width={1600}
       />
       <img
         alt="DSC02520"
-        height={250.44444444444446}
+        height={1065}
         key="40673437163"
-        onClick={[Function]}
         sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
         src="https://live.staticflickr.com/65535/40673437163_703ffe416d_b.jpg"
         srcSet={
@@ -465,19 +153,18 @@ exports[`Gallery it matches correct snapshot 1`] = `
         }
         style={
           Object {
-            "cursor": "pointer",
-            "display": "block",
-            "margin": 2,
+            "height": "250.44444444444446px",
+            "margin": "2px",
+            "width": "375.7px",
           }
         }
         title="DSC02520"
-        width={375.7}
+        width={1600}
       />
       <img
         alt="DSC02494"
-        height={332.64705882352945}
+        height={1065}
         key="47587238362"
-        onClick={[Function]}
         sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
         src="https://live.staticflickr.com/65535/47587238362_5d355937cb_b.jpg"
         srcSet={
@@ -490,19 +177,18 @@ exports[`Gallery it matches correct snapshot 1`] = `
         }
         style={
           Object {
-            "cursor": "pointer",
-            "display": "block",
-            "margin": 2,
+            "height": "332.64705882352945px",
+            "margin": "2px",
+            "width": "499px",
           }
         }
         title="DSC02494"
-        width={499}
+        width={1600}
       />
       <img
         alt="DSC02492"
-        height={332.64705882352945}
+        height={840}
         key="32697498187"
-        onClick={[Function]}
         sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
         src="https://live.staticflickr.com/65535/32697498187_7a74849c76_b.jpg"
         srcSet={
@@ -515,19 +201,18 @@ exports[`Gallery it matches correct snapshot 1`] = `
         }
         style={
           Object {
-            "cursor": "pointer",
-            "display": "block",
-            "margin": 2,
+            "height": "332.64705882352945px",
+            "margin": "2px",
+            "width": "632px",
           }
         }
         title="DSC02492"
-        width={632}
+        width={1600}
       />
       <img
         alt="DSC02489"
-        height={241.32762312633832}
+        height={1065}
         key="40673436913"
-        onClick={[Function]}
         sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
         src="https://live.staticflickr.com/65535/40673436913_c48ac9e6d5_b.jpg"
         srcSet={
@@ -540,19 +225,18 @@ exports[`Gallery it matches correct snapshot 1`] = `
         }
         style={
           Object {
-            "cursor": "pointer",
-            "display": "block",
-            "margin": 2,
+            "height": "241.32762312633832px",
+            "margin": "2px",
+            "width": "362px",
           }
         }
         title="DSC02489"
-        width={362}
+        width={1600}
       />
       <img
         alt="DSC02479"
-        height={241.32762312633832}
+        height={957}
         key="40673437213"
-        onClick={[Function]}
         sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
         src="https://live.staticflickr.com/65535/40673437213_3480e88c8b_b.jpg"
         srcSet={
@@ -565,19 +249,18 @@ exports[`Gallery it matches correct snapshot 1`] = `
         }
         style={
           Object {
-            "cursor": "pointer",
-            "display": "block",
-            "margin": 2,
+            "height": "241.32762312633832px",
+            "margin": "2px",
+            "width": "403px",
           }
         }
         title="DSC02479"
-        width={403}
+        width={1600}
       />
       <img
         alt="DSC02461"
-        height={241.32762312633832}
+        height={1065}
         key="47587238482"
-        onClick={[Function]}
         sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
         src="https://live.staticflickr.com/65535/47587238482_5ac51de790_b.jpg"
         srcSet={
@@ -590,19 +273,18 @@ exports[`Gallery it matches correct snapshot 1`] = `
         }
         style={
           Object {
-            "cursor": "pointer",
-            "display": "block",
-            "margin": 2,
+            "height": "241.32762312633832px",
+            "margin": "2px",
+            "width": "362px",
           }
         }
         title="DSC02461"
-        width={362}
+        width={1600}
       />
       <img
         alt="DSC02460"
-        height={252.1252796420582}
+        height={1065}
         key="32697498227"
-        onClick={[Function]}
         sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
         src="https://live.staticflickr.com/65535/32697498227_a3bc50aa6c_b.jpg"
         srcSet={
@@ -615,19 +297,18 @@ exports[`Gallery it matches correct snapshot 1`] = `
         }
         style={
           Object {
-            "cursor": "pointer",
-            "display": "block",
-            "margin": 2,
+            "height": "252.1252796420582px",
+            "margin": "2px",
+            "width": "378.2px",
           }
         }
         title="DSC02460"
-        width={378.2}
+        width={1600}
       />
       <img
         alt="DSC02456"
-        height={252.1252796420582}
+        height={1086}
         key="40673437263"
-        onClick={[Function]}
         sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
         src="https://live.staticflickr.com/65535/40673437263_b03be98bae_b.jpg"
         srcSet={
@@ -640,19 +321,18 @@ exports[`Gallery it matches correct snapshot 1`] = `
         }
         style={
           Object {
-            "cursor": "pointer",
-            "display": "block",
-            "margin": 2,
+            "height": "252.1252796420582px",
+            "margin": "2px",
+            "width": "370.6px",
           }
         }
         title="DSC02456"
-        width={370.6}
+        width={1600}
       />
       <img
         alt="DSC02453"
-        height={252.1252796420582}
+        height={1065}
         key="32697497717"
-        onClick={[Function]}
         sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
         src="https://live.staticflickr.com/65535/32697497717_1fb25b32be_b.jpg"
         srcSet={
@@ -665,19 +345,18 @@ exports[`Gallery it matches correct snapshot 1`] = `
         }
         style={
           Object {
-            "cursor": "pointer",
-            "display": "block",
-            "margin": 2,
+            "height": "252.1252796420582px",
+            "margin": "2px",
+            "width": "378.2px",
           }
         }
         title="DSC02453"
-        width={378.2}
+        width={1600}
       />
       <img
         alt="DSC02441"
-        height={250.44444444444446}
+        height={1065}
         key="47587238552"
-        onClick={[Function]}
         sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
         src="https://live.staticflickr.com/65535/47587238552_cfce31cc10_b.jpg"
         srcSet={
@@ -690,19 +369,18 @@ exports[`Gallery it matches correct snapshot 1`] = `
         }
         style={
           Object {
-            "cursor": "pointer",
-            "display": "block",
-            "margin": 2,
+            "height": "250.44444444444446px",
+            "margin": "2px",
+            "width": "375.7px",
           }
         }
         title="DSC02441"
-        width={375.7}
+        width={1600}
       />
       <img
         alt="DSC02439"
-        height={250.44444444444446}
+        height={1065}
         key="47640016631"
-        onClick={[Function]}
         sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
         src="https://live.staticflickr.com/65535/47640016631_cfffe28dd0_b.jpg"
         srcSet={
@@ -715,19 +393,18 @@ exports[`Gallery it matches correct snapshot 1`] = `
         }
         style={
           Object {
-            "cursor": "pointer",
-            "display": "block",
-            "margin": 2,
+            "height": "250.44444444444446px",
+            "margin": "2px",
+            "width": "375.7px",
           }
         }
         title="DSC02439"
-        width={375.7}
+        width={1600}
       />
       <img
         alt="DSC02436"
-        height={250.44444444444446}
+        height={1065}
         key="47640017061"
-        onClick={[Function]}
         sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
         src="https://live.staticflickr.com/65535/47640017061_d6f554a175_b.jpg"
         srcSet={
@@ -740,19 +417,18 @@ exports[`Gallery it matches correct snapshot 1`] = `
         }
         style={
           Object {
-            "cursor": "pointer",
-            "display": "block",
-            "margin": 2,
+            "height": "250.44444444444446px",
+            "margin": "2px",
+            "width": "375.7px",
           }
         }
         title="DSC02436"
-        width={375.7}
+        width={1600}
       />
       <img
         alt="DSC02435"
-        height={254.4018058690745}
+        height={708}
         key="32697497787"
-        onClick={[Function]}
         sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
         src="https://live.staticflickr.com/65535/32697497787_ebd9165050_b.jpg"
         srcSet={
@@ -765,19 +441,18 @@ exports[`Gallery it matches correct snapshot 1`] = `
         }
         style={
           Object {
-            "cursor": "pointer",
-            "display": "block",
-            "margin": 2,
+            "height": "254.4018058690745px",
+            "margin": "2px",
+            "width": "574.9px",
           }
         }
         title="DSC02435"
-        width={574.9}
+        width={1600}
       />
       <img
         alt="DSC02428"
-        height={254.4018058690745}
+        height={1600}
         key="40673437303"
-        onClick={[Function]}
         sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
         src="https://live.staticflickr.com/65535/40673437303_ec8b5a7246_b.jpg"
         srcSet={
@@ -790,19 +465,18 @@ exports[`Gallery it matches correct snapshot 1`] = `
         }
         style={
           Object {
-            "cursor": "pointer",
-            "display": "block",
-            "margin": 2,
+            "height": "254.4018058690745px",
+            "margin": "2px",
+            "width": "170.4px",
           }
         }
         title="DSC02428"
-        width={170.4}
+        width={1065}
       />
       <img
         alt="DSC02427"
-        height={254.4018058690745}
+        height={1065}
         key="46724351385"
-        onClick={[Function]}
         sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
         src="https://live.staticflickr.com/65535/46724351385_a6ff50ddda_b.jpg"
         srcSet={
@@ -815,881 +489,15 @@ exports[`Gallery it matches correct snapshot 1`] = `
         }
         style={
           Object {
-            "cursor": "pointer",
-            "display": "block",
-            "margin": 2,
+            "height": "254.4018058690745px",
+            "margin": "2px",
+            "width": "381.6px",
           }
         }
         title="DSC02427"
-        width={381.6}
+        width={1600}
       />
     </div>
   </div>
-</Gallery>
-`;
-
-exports[`Gallery renders correctly with direction set to column 1`] = `
-<Gallery
-  direction="column"
-  margin={2}
-  photos={
-    Array [
-      Object {
-        "alt": "DSC02576",
-        "height": 250.44444444444446,
-        "key": "40673436833",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/40673436833_5fc1ab52fe_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/40673436833_5fc1ab52fe.jpg 500w",
-          "https://live.staticflickr.com/65535/40673436833_5fc1ab52fe_c.jpg 800w",
-          "https://live.staticflickr.com/65535/40673436833_5fc1ab52fe_b.jpg 1024w",
-          "https://live.staticflickr.com/65535/40673436833_6f245db6aa_h.jpg 1600w",
-        ],
-        "title": "DSC02576",
-        "width": 375.7,
-      },
-      Object {
-        "alt": "DSC02565",
-        "height": 250.44444444444446,
-        "key": "47587238132",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/47587238132_4683fdabb2_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/47587238132_4683fdabb2.jpg 500w",
-          "https://live.staticflickr.com/65535/47587238132_4683fdabb2_c.jpg 800w",
-          "https://live.staticflickr.com/65535/47587238132_4683fdabb2_b.jpg 1024w",
-          "https://live.staticflickr.com/65535/47587238132_54f98ac5e9_h.jpg 1600w",
-        ],
-        "title": "DSC02565",
-        "width": 375.7,
-      },
-      Object {
-        "alt": "DSC02548",
-        "height": 250.44444444444446,
-        "key": "32697497947",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/32697497947_7d6dfaf5ec_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/32697497947_7d6dfaf5ec.jpg 500w",
-          "https://live.staticflickr.com/65535/32697497947_7d6dfaf5ec_c.jpg 800w",
-          "https://live.staticflickr.com/65535/32697497947_7d6dfaf5ec_b.jpg 1024w",
-          "https://live.staticflickr.com/65535/32697497947_81c6d9139e_h.jpg 1600w",
-        ],
-        "title": "DSC02548",
-        "width": 375.7,
-      },
-      Object {
-        "alt": "DSC02540",
-        "height": 250.44444444444446,
-        "key": "32697497647",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/32697497647_31cd88c0b5_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/32697497647_31cd88c0b5.jpg 500w",
-          "https://live.staticflickr.com/65535/32697497647_31cd88c0b5_c.jpg 800w",
-          "https://live.staticflickr.com/65535/32697497647_31cd88c0b5_b.jpg 1024w",
-          "https://live.staticflickr.com/65535/32697497647_7a36437b05_h.jpg 1600w",
-        ],
-        "title": "DSC02540",
-        "width": 375.7,
-      },
-      Object {
-        "alt": "DSC02535",
-        "height": 250.44444444444446,
-        "key": "47587238242",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/47587238242_6776b8a582_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/47587238242_6776b8a582.jpg 500w",
-          "https://live.staticflickr.com/65535/47587238242_6776b8a582_c.jpg 800w",
-          "https://live.staticflickr.com/65535/47587238242_6776b8a582_b.jpg 1024w",
-          "https://live.staticflickr.com/65535/47587238242_feab7e0aa0_h.jpg 1600w",
-        ],
-        "title": "DSC02535",
-        "width": 375.7,
-      },
-      Object {
-        "alt": "DSC02520",
-        "height": 250.44444444444446,
-        "key": "40673437163",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/40673437163_703ffe416d_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/40673437163_703ffe416d.jpg 500w",
-          "https://live.staticflickr.com/65535/40673437163_703ffe416d_c.jpg 800w",
-          "https://live.staticflickr.com/65535/40673437163_703ffe416d_b.jpg 1024w",
-          "https://live.staticflickr.com/65535/40673437163_7f4a4d66f2_h.jpg 1600w",
-        ],
-        "title": "DSC02520",
-        "width": 375.7,
-      },
-      Object {
-        "alt": "DSC02494",
-        "height": 332.64705882352945,
-        "key": "47587238362",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/47587238362_5d355937cb_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/47587238362_5d355937cb.jpg 500w",
-          "https://live.staticflickr.com/65535/47587238362_5d355937cb_c.jpg 800w",
-          "https://live.staticflickr.com/65535/47587238362_5d355937cb_b.jpg 1024w",
-          "https://live.staticflickr.com/65535/47587238362_65fe216f4b_h.jpg 1600w",
-        ],
-        "title": "DSC02494",
-        "width": 499,
-      },
-      Object {
-        "alt": "DSC02492",
-        "height": 332.64705882352945,
-        "key": "32697498187",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/32697498187_7a74849c76_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/32697498187_7a74849c76.jpg 500w",
-          "https://live.staticflickr.com/65535/32697498187_7a74849c76_c.jpg 800w",
-          "https://live.staticflickr.com/65535/32697498187_7a74849c76_b.jpg 1024w",
-          "https://live.staticflickr.com/65535/32697498187_9d07b79e86_h.jpg 1600w",
-        ],
-        "title": "DSC02492",
-        "width": 632,
-      },
-      Object {
-        "alt": "DSC02489",
-        "height": 241.32762312633832,
-        "key": "40673436913",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/40673436913_c48ac9e6d5_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/40673436913_c48ac9e6d5.jpg 500w",
-          "https://live.staticflickr.com/65535/40673436913_c48ac9e6d5_c.jpg 800w",
-          "https://live.staticflickr.com/65535/40673436913_c48ac9e6d5_b.jpg 1024w",
-          "https://live.staticflickr.com/65535/40673436913_dbb2320a41_h.jpg 1600w",
-        ],
-        "title": "DSC02489",
-        "width": 362,
-      },
-      Object {
-        "alt": "DSC02479",
-        "height": 241.32762312633832,
-        "key": "40673437213",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/40673437213_3480e88c8b_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/40673437213_3480e88c8b.jpg 500w",
-          "https://live.staticflickr.com/65535/40673437213_3480e88c8b_c.jpg 800w",
-          "https://live.staticflickr.com/65535/40673437213_3480e88c8b_b.jpg 1024w",
-          "https://live.staticflickr.com/65535/40673437213_5bfff3ef95_h.jpg 1600w",
-        ],
-        "title": "DSC02479",
-        "width": 403,
-      },
-      Object {
-        "alt": "DSC02461",
-        "height": 241.32762312633832,
-        "key": "47587238482",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/47587238482_5ac51de790_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/47587238482_5ac51de790.jpg 500w",
-          "https://live.staticflickr.com/65535/47587238482_5ac51de790_c.jpg 800w",
-          "https://live.staticflickr.com/65535/47587238482_5ac51de790_b.jpg 1024w",
-          "https://live.staticflickr.com/65535/47587238482_b8b1478145_h.jpg 1600w",
-        ],
-        "title": "DSC02461",
-        "width": 362,
-      },
-      Object {
-        "alt": "DSC02460",
-        "height": 252.1252796420582,
-        "key": "32697498227",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/32697498227_a3bc50aa6c_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/32697498227_a3bc50aa6c.jpg 500w",
-          "https://live.staticflickr.com/65535/32697498227_a3bc50aa6c_c.jpg 800w",
-          "https://live.staticflickr.com/65535/32697498227_a3bc50aa6c_b.jpg 1024w",
-          "https://live.staticflickr.com/65535/32697498227_e5a478e65c_h.jpg 1600w",
-        ],
-        "title": "DSC02460",
-        "width": 378.2,
-      },
-      Object {
-        "alt": "DSC02456",
-        "height": 252.1252796420582,
-        "key": "40673437263",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/40673437263_b03be98bae_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/40673437263_b03be98bae.jpg 500w",
-          "https://live.staticflickr.com/65535/40673437263_b03be98bae_c.jpg 800w",
-          "https://live.staticflickr.com/65535/40673437263_b03be98bae_b.jpg 1024w",
-          "https://live.staticflickr.com/65535/40673437263_bebc91464c_h.jpg 1600w",
-        ],
-        "title": "DSC02456",
-        "width": 370.6,
-      },
-      Object {
-        "alt": "DSC02453",
-        "height": 252.1252796420582,
-        "key": "32697497717",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/32697497717_1fb25b32be_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/32697497717_1fb25b32be.jpg 500w",
-          "https://live.staticflickr.com/65535/32697497717_1fb25b32be_c.jpg 800w",
-          "https://live.staticflickr.com/65535/32697497717_1fb25b32be_b.jpg 1024w",
-          "https://live.staticflickr.com/65535/32697497717_4bf3235964_h.jpg 1600w",
-        ],
-        "title": "DSC02453",
-        "width": 378.2,
-      },
-      Object {
-        "alt": "DSC02441",
-        "height": 250.44444444444446,
-        "key": "47587238552",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/47587238552_cfce31cc10_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/47587238552_cfce31cc10.jpg 500w",
-          "https://live.staticflickr.com/65535/47587238552_cfce31cc10_c.jpg 800w",
-          "https://live.staticflickr.com/65535/47587238552_cfce31cc10_b.jpg 1024w",
-          "https://live.staticflickr.com/65535/47587238552_44cd3655ea_h.jpg 1600w",
-        ],
-        "title": "DSC02441",
-        "width": 375.7,
-      },
-      Object {
-        "alt": "DSC02439",
-        "height": 250.44444444444446,
-        "key": "47640016631",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/47640016631_cfffe28dd0_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/47640016631_cfffe28dd0.jpg 500w",
-          "https://live.staticflickr.com/65535/47640016631_cfffe28dd0_c.jpg 800w",
-          "https://live.staticflickr.com/65535/47640016631_cfffe28dd0_b.jpg 1024w",
-          "https://live.staticflickr.com/65535/47640016631_ec4ec9f250_h.jpg 1600w",
-        ],
-        "title": "DSC02439",
-        "width": 375.7,
-      },
-      Object {
-        "alt": "DSC02436",
-        "height": 250.44444444444446,
-        "key": "47640017061",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/47640017061_d6f554a175_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/47640017061_d6f554a175.jpg 500w",
-          "https://live.staticflickr.com/65535/47640017061_d6f554a175_c.jpg 800w",
-          "https://live.staticflickr.com/65535/47640017061_d6f554a175_b.jpg 1024w",
-          "https://live.staticflickr.com/65535/47640017061_cf1fd70288_h.jpg 1600w",
-        ],
-        "title": "DSC02436",
-        "width": 375.7,
-      },
-      Object {
-        "alt": "DSC02435",
-        "height": 254.4018058690745,
-        "key": "32697497787",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/32697497787_ebd9165050_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/32697497787_ebd9165050.jpg 500w",
-          "https://live.staticflickr.com/65535/32697497787_ebd9165050_c.jpg 800w",
-          "https://live.staticflickr.com/65535/32697497787_ebd9165050_b.jpg 1024w",
-          "https://live.staticflickr.com/65535/32697497787_e3c6cb4bc5_h.jpg 1600w",
-        ],
-        "title": "DSC02435",
-        "width": 574.9,
-      },
-      Object {
-        "alt": "DSC02428",
-        "height": 254.4018058690745,
-        "key": "40673437303",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/40673437303_ec8b5a7246_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/40673437303_ec8b5a7246.jpg 333w",
-          "https://live.staticflickr.com/65535/40673437303_ec8b5a7246_c.jpg 533w",
-          "https://live.staticflickr.com/65535/40673437303_ec8b5a7246_b.jpg 682w",
-          "https://live.staticflickr.com/65535/40673437303_c88d6174a2_h.jpg 1065w",
-        ],
-        "title": "DSC02428",
-        "width": 170.4,
-      },
-      Object {
-        "alt": "DSC02427",
-        "height": 254.4018058690745,
-        "key": "46724351385",
-        "sizes": "(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw",
-        "src": "https://live.staticflickr.com/65535/46724351385_a6ff50ddda_b.jpg",
-        "srcSet": Array [
-          "https://live.staticflickr.com/65535/46724351385_a6ff50ddda.jpg 500w",
-          "https://live.staticflickr.com/65535/46724351385_a6ff50ddda_c.jpg 800w",
-          "https://live.staticflickr.com/65535/46724351385_a6ff50ddda_b.jpg 1024w",
-          "https://live.staticflickr.com/65535/46724351385_3a29cde51c_h.jpg 1600w",
-        ],
-        "title": "DSC02427",
-        "width": 381.6,
-      },
-    ]
-  }
-  targetRowHeight={300}
->
-  <div
-    className="react-photo-gallery--gallery"
-  >
-    <div
-      style={
-        Object {
-          "height": 2007.1,
-          "position": "relative",
-        }
-      }
-    >
-      <img
-        alt="DSC02576"
-        height={250.4}
-        key="40673436833"
-        onClick={null}
-        sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
-        src="https://live.staticflickr.com/65535/40673436833_5fc1ab52fe_b.jpg"
-        srcSet={
-          Array [
-            "https://live.staticflickr.com/65535/40673436833_5fc1ab52fe.jpg 500w",
-            "https://live.staticflickr.com/65535/40673436833_5fc1ab52fe_c.jpg 800w",
-            "https://live.staticflickr.com/65535/40673436833_5fc1ab52fe_b.jpg 1024w",
-            "https://live.staticflickr.com/65535/40673436833_6f245db6aa_h.jpg 1600w",
-          ]
-        }
-        style={
-          Object {
-            "display": "block",
-            "left": 0,
-            "margin": 2,
-            "position": "absolute",
-            "top": 0,
-          }
-        }
-        title="DSC02576"
-        width={375.7}
-      />
-      <img
-        alt="DSC02565"
-        height={250.4}
-        key="47587238132"
-        onClick={null}
-        sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
-        src="https://live.staticflickr.com/65535/47587238132_4683fdabb2_b.jpg"
-        srcSet={
-          Array [
-            "https://live.staticflickr.com/65535/47587238132_4683fdabb2.jpg 500w",
-            "https://live.staticflickr.com/65535/47587238132_4683fdabb2_c.jpg 800w",
-            "https://live.staticflickr.com/65535/47587238132_4683fdabb2_b.jpg 1024w",
-            "https://live.staticflickr.com/65535/47587238132_54f98ac5e9_h.jpg 1600w",
-          ]
-        }
-        style={
-          Object {
-            "display": "block",
-            "left": 379.7,
-            "margin": 2,
-            "position": "absolute",
-            "top": 0,
-          }
-        }
-        title="DSC02565"
-        width={375.7}
-      />
-      <img
-        alt="DSC02548"
-        height={250.4}
-        key="32697497947"
-        onClick={null}
-        sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
-        src="https://live.staticflickr.com/65535/32697497947_7d6dfaf5ec_b.jpg"
-        srcSet={
-          Array [
-            "https://live.staticflickr.com/65535/32697497947_7d6dfaf5ec.jpg 500w",
-            "https://live.staticflickr.com/65535/32697497947_7d6dfaf5ec_c.jpg 800w",
-            "https://live.staticflickr.com/65535/32697497947_7d6dfaf5ec_b.jpg 1024w",
-            "https://live.staticflickr.com/65535/32697497947_81c6d9139e_h.jpg 1600w",
-          ]
-        }
-        style={
-          Object {
-            "display": "block",
-            "left": 759.3,
-            "margin": 2,
-            "position": "absolute",
-            "top": 0,
-          }
-        }
-        title="DSC02548"
-        width={375.7}
-      />
-      <img
-        alt="DSC02540"
-        height={250.4}
-        key="32697497647"
-        onClick={null}
-        sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
-        src="https://live.staticflickr.com/65535/32697497647_31cd88c0b5_b.jpg"
-        srcSet={
-          Array [
-            "https://live.staticflickr.com/65535/32697497647_31cd88c0b5.jpg 500w",
-            "https://live.staticflickr.com/65535/32697497647_31cd88c0b5_c.jpg 800w",
-            "https://live.staticflickr.com/65535/32697497647_31cd88c0b5_b.jpg 1024w",
-            "https://live.staticflickr.com/65535/32697497647_7a36437b05_h.jpg 1600w",
-          ]
-        }
-        style={
-          Object {
-            "display": "block",
-            "left": 0,
-            "margin": 2,
-            "position": "absolute",
-            "top": 254.4,
-          }
-        }
-        title="DSC02540"
-        width={375.7}
-      />
-      <img
-        alt="DSC02535"
-        height={250.4}
-        key="47587238242"
-        onClick={null}
-        sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
-        src="https://live.staticflickr.com/65535/47587238242_6776b8a582_b.jpg"
-        srcSet={
-          Array [
-            "https://live.staticflickr.com/65535/47587238242_6776b8a582.jpg 500w",
-            "https://live.staticflickr.com/65535/47587238242_6776b8a582_c.jpg 800w",
-            "https://live.staticflickr.com/65535/47587238242_6776b8a582_b.jpg 1024w",
-            "https://live.staticflickr.com/65535/47587238242_feab7e0aa0_h.jpg 1600w",
-          ]
-        }
-        style={
-          Object {
-            "display": "block",
-            "left": 379.7,
-            "margin": 2,
-            "position": "absolute",
-            "top": 254.4,
-          }
-        }
-        title="DSC02535"
-        width={375.7}
-      />
-      <img
-        alt="DSC02520"
-        height={250.4}
-        key="40673437163"
-        onClick={null}
-        sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
-        src="https://live.staticflickr.com/65535/40673437163_703ffe416d_b.jpg"
-        srcSet={
-          Array [
-            "https://live.staticflickr.com/65535/40673437163_703ffe416d.jpg 500w",
-            "https://live.staticflickr.com/65535/40673437163_703ffe416d_c.jpg 800w",
-            "https://live.staticflickr.com/65535/40673437163_703ffe416d_b.jpg 1024w",
-            "https://live.staticflickr.com/65535/40673437163_7f4a4d66f2_h.jpg 1600w",
-          ]
-        }
-        style={
-          Object {
-            "display": "block",
-            "left": 759.3,
-            "margin": 2,
-            "position": "absolute",
-            "top": 254.4,
-          }
-        }
-        title="DSC02520"
-        width={375.7}
-      />
-      <img
-        alt="DSC02494"
-        height={250.4}
-        key="47587238362"
-        onClick={null}
-        sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
-        src="https://live.staticflickr.com/65535/47587238362_5d355937cb_b.jpg"
-        srcSet={
-          Array [
-            "https://live.staticflickr.com/65535/47587238362_5d355937cb.jpg 500w",
-            "https://live.staticflickr.com/65535/47587238362_5d355937cb_c.jpg 800w",
-            "https://live.staticflickr.com/65535/47587238362_5d355937cb_b.jpg 1024w",
-            "https://live.staticflickr.com/65535/47587238362_65fe216f4b_h.jpg 1600w",
-          ]
-        }
-        style={
-          Object {
-            "display": "block",
-            "left": 0,
-            "margin": 2,
-            "position": "absolute",
-            "top": 508.8,
-          }
-        }
-        title="DSC02494"
-        width={375.7}
-      />
-      <img
-        alt="DSC02492"
-        height={197.7}
-        key="32697498187"
-        onClick={null}
-        sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
-        src="https://live.staticflickr.com/65535/32697498187_7a74849c76_b.jpg"
-        srcSet={
-          Array [
-            "https://live.staticflickr.com/65535/32697498187_7a74849c76.jpg 500w",
-            "https://live.staticflickr.com/65535/32697498187_7a74849c76_c.jpg 800w",
-            "https://live.staticflickr.com/65535/32697498187_7a74849c76_b.jpg 1024w",
-            "https://live.staticflickr.com/65535/32697498187_9d07b79e86_h.jpg 1600w",
-          ]
-        }
-        style={
-          Object {
-            "display": "block",
-            "left": 379.7,
-            "margin": 2,
-            "position": "absolute",
-            "top": 508.8,
-          }
-        }
-        title="DSC02492"
-        width={375.7}
-      />
-      <img
-        alt="DSC02489"
-        height={250.4}
-        key="40673436913"
-        onClick={null}
-        sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
-        src="https://live.staticflickr.com/65535/40673436913_c48ac9e6d5_b.jpg"
-        srcSet={
-          Array [
-            "https://live.staticflickr.com/65535/40673436913_c48ac9e6d5.jpg 500w",
-            "https://live.staticflickr.com/65535/40673436913_c48ac9e6d5_c.jpg 800w",
-            "https://live.staticflickr.com/65535/40673436913_c48ac9e6d5_b.jpg 1024w",
-            "https://live.staticflickr.com/65535/40673436913_dbb2320a41_h.jpg 1600w",
-          ]
-        }
-        style={
-          Object {
-            "display": "block",
-            "left": 759.3,
-            "margin": 2,
-            "position": "absolute",
-            "top": 508.8,
-          }
-        }
-        title="DSC02489"
-        width={375.7}
-      />
-      <img
-        alt="DSC02479"
-        height={225}
-        key="40673437213"
-        onClick={null}
-        sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
-        src="https://live.staticflickr.com/65535/40673437213_3480e88c8b_b.jpg"
-        srcSet={
-          Array [
-            "https://live.staticflickr.com/65535/40673437213_3480e88c8b.jpg 500w",
-            "https://live.staticflickr.com/65535/40673437213_3480e88c8b_c.jpg 800w",
-            "https://live.staticflickr.com/65535/40673437213_3480e88c8b_b.jpg 1024w",
-            "https://live.staticflickr.com/65535/40673437213_5bfff3ef95_h.jpg 1600w",
-          ]
-        }
-        style={
-          Object {
-            "display": "block",
-            "left": 379.7,
-            "margin": 2,
-            "position": "absolute",
-            "top": 710.5,
-          }
-        }
-        title="DSC02479"
-        width={375.7}
-      />
-      <img
-        alt="DSC02461"
-        height={250.4}
-        key="47587238482"
-        onClick={null}
-        sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
-        src="https://live.staticflickr.com/65535/47587238482_5ac51de790_b.jpg"
-        srcSet={
-          Array [
-            "https://live.staticflickr.com/65535/47587238482_5ac51de790.jpg 500w",
-            "https://live.staticflickr.com/65535/47587238482_5ac51de790_c.jpg 800w",
-            "https://live.staticflickr.com/65535/47587238482_5ac51de790_b.jpg 1024w",
-            "https://live.staticflickr.com/65535/47587238482_b8b1478145_h.jpg 1600w",
-          ]
-        }
-        style={
-          Object {
-            "display": "block",
-            "left": 0,
-            "margin": 2,
-            "position": "absolute",
-            "top": 763.2,
-          }
-        }
-        title="DSC02461"
-        width={375.7}
-      />
-      <img
-        alt="DSC02460"
-        height={250.4}
-        key="32697498227"
-        onClick={null}
-        sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
-        src="https://live.staticflickr.com/65535/32697498227_a3bc50aa6c_b.jpg"
-        srcSet={
-          Array [
-            "https://live.staticflickr.com/65535/32697498227_a3bc50aa6c.jpg 500w",
-            "https://live.staticflickr.com/65535/32697498227_a3bc50aa6c_c.jpg 800w",
-            "https://live.staticflickr.com/65535/32697498227_a3bc50aa6c_b.jpg 1024w",
-            "https://live.staticflickr.com/65535/32697498227_e5a478e65c_h.jpg 1600w",
-          ]
-        }
-        style={
-          Object {
-            "display": "block",
-            "left": 759.3,
-            "margin": 2,
-            "position": "absolute",
-            "top": 763.2,
-          }
-        }
-        title="DSC02460"
-        width={375.7}
-      />
-      <img
-        alt="DSC02456"
-        height={255.6}
-        key="40673437263"
-        onClick={null}
-        sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
-        src="https://live.staticflickr.com/65535/40673437263_b03be98bae_b.jpg"
-        srcSet={
-          Array [
-            "https://live.staticflickr.com/65535/40673437263_b03be98bae.jpg 500w",
-            "https://live.staticflickr.com/65535/40673437263_b03be98bae_c.jpg 800w",
-            "https://live.staticflickr.com/65535/40673437263_b03be98bae_b.jpg 1024w",
-            "https://live.staticflickr.com/65535/40673437263_bebc91464c_h.jpg 1600w",
-          ]
-        }
-        style={
-          Object {
-            "display": "block",
-            "left": 379.7,
-            "margin": 2,
-            "position": "absolute",
-            "top": 939.5,
-          }
-        }
-        title="DSC02456"
-        width={375.7}
-      />
-      <img
-        alt="DSC02453"
-        height={250.4}
-        key="32697497717"
-        onClick={null}
-        sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
-        src="https://live.staticflickr.com/65535/32697497717_1fb25b32be_b.jpg"
-        srcSet={
-          Array [
-            "https://live.staticflickr.com/65535/32697497717_1fb25b32be.jpg 500w",
-            "https://live.staticflickr.com/65535/32697497717_1fb25b32be_c.jpg 800w",
-            "https://live.staticflickr.com/65535/32697497717_1fb25b32be_b.jpg 1024w",
-            "https://live.staticflickr.com/65535/32697497717_4bf3235964_h.jpg 1600w",
-          ]
-        }
-        style={
-          Object {
-            "display": "block",
-            "left": 0,
-            "margin": 2,
-            "position": "absolute",
-            "top": 1017.6,
-          }
-        }
-        title="DSC02453"
-        width={375.7}
-      />
-      <img
-        alt="DSC02441"
-        height={250.4}
-        key="47587238552"
-        onClick={null}
-        sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
-        src="https://live.staticflickr.com/65535/47587238552_cfce31cc10_b.jpg"
-        srcSet={
-          Array [
-            "https://live.staticflickr.com/65535/47587238552_cfce31cc10.jpg 500w",
-            "https://live.staticflickr.com/65535/47587238552_cfce31cc10_c.jpg 800w",
-            "https://live.staticflickr.com/65535/47587238552_cfce31cc10_b.jpg 1024w",
-            "https://live.staticflickr.com/65535/47587238552_44cd3655ea_h.jpg 1600w",
-          ]
-        }
-        style={
-          Object {
-            "display": "block",
-            "left": 759.3,
-            "margin": 2,
-            "position": "absolute",
-            "top": 1017.6,
-          }
-        }
-        title="DSC02441"
-        width={375.7}
-      />
-      <img
-        alt="DSC02439"
-        height={250.4}
-        key="47640016631"
-        onClick={null}
-        sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
-        src="https://live.staticflickr.com/65535/47640016631_cfffe28dd0_b.jpg"
-        srcSet={
-          Array [
-            "https://live.staticflickr.com/65535/47640016631_cfffe28dd0.jpg 500w",
-            "https://live.staticflickr.com/65535/47640016631_cfffe28dd0_c.jpg 800w",
-            "https://live.staticflickr.com/65535/47640016631_cfffe28dd0_b.jpg 1024w",
-            "https://live.staticflickr.com/65535/47640016631_ec4ec9f250_h.jpg 1600w",
-          ]
-        }
-        style={
-          Object {
-            "display": "block",
-            "left": 379.7,
-            "margin": 2,
-            "position": "absolute",
-            "top": 1199.1,
-          }
-        }
-        title="DSC02439"
-        width={375.7}
-      />
-      <img
-        alt="DSC02436"
-        height={250.4}
-        key="47640017061"
-        onClick={null}
-        sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
-        src="https://live.staticflickr.com/65535/47640017061_d6f554a175_b.jpg"
-        srcSet={
-          Array [
-            "https://live.staticflickr.com/65535/47640017061_d6f554a175.jpg 500w",
-            "https://live.staticflickr.com/65535/47640017061_d6f554a175_c.jpg 800w",
-            "https://live.staticflickr.com/65535/47640017061_d6f554a175_b.jpg 1024w",
-            "https://live.staticflickr.com/65535/47640017061_cf1fd70288_h.jpg 1600w",
-          ]
-        }
-        style={
-          Object {
-            "display": "block",
-            "left": 0,
-            "margin": 2,
-            "position": "absolute",
-            "top": 1272,
-          }
-        }
-        title="DSC02436"
-        width={375.7}
-      />
-      <img
-        alt="DSC02435"
-        height={166.2}
-        key="32697497787"
-        onClick={null}
-        sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
-        src="https://live.staticflickr.com/65535/32697497787_ebd9165050_b.jpg"
-        srcSet={
-          Array [
-            "https://live.staticflickr.com/65535/32697497787_ebd9165050.jpg 500w",
-            "https://live.staticflickr.com/65535/32697497787_ebd9165050_c.jpg 800w",
-            "https://live.staticflickr.com/65535/32697497787_ebd9165050_b.jpg 1024w",
-            "https://live.staticflickr.com/65535/32697497787_e3c6cb4bc5_h.jpg 1600w",
-          ]
-        }
-        style={
-          Object {
-            "display": "block",
-            "left": 759.3,
-            "margin": 2,
-            "position": "absolute",
-            "top": 1272,
-          }
-        }
-        title="DSC02435"
-        width={375.7}
-      />
-      <img
-        alt="DSC02428"
-        height={560.9}
-        key="40673437303"
-        onClick={null}
-        sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
-        src="https://live.staticflickr.com/65535/40673437303_ec8b5a7246_b.jpg"
-        srcSet={
-          Array [
-            "https://live.staticflickr.com/65535/40673437303_ec8b5a7246.jpg 333w",
-            "https://live.staticflickr.com/65535/40673437303_ec8b5a7246_c.jpg 533w",
-            "https://live.staticflickr.com/65535/40673437303_ec8b5a7246_b.jpg 682w",
-            "https://live.staticflickr.com/65535/40673437303_c88d6174a2_h.jpg 1065w",
-          ]
-        }
-        style={
-          Object {
-            "display": "block",
-            "left": 759.3,
-            "margin": 2,
-            "position": "absolute",
-            "top": 1442.2,
-          }
-        }
-        title="DSC02428"
-        width={375.7}
-      />
-      <img
-        alt="DSC02427"
-        height={250.4}
-        key="46724351385"
-        onClick={null}
-        sizes="(min-width: 480px) 50vw, (min-width: 1024px) 33.3vw, 100vw"
-        src="https://live.staticflickr.com/65535/46724351385_a6ff50ddda_b.jpg"
-        srcSet={
-          Array [
-            "https://live.staticflickr.com/65535/46724351385_a6ff50ddda.jpg 500w",
-            "https://live.staticflickr.com/65535/46724351385_a6ff50ddda_c.jpg 800w",
-            "https://live.staticflickr.com/65535/46724351385_a6ff50ddda_b.jpg 1024w",
-            "https://live.staticflickr.com/65535/46724351385_3a29cde51c_h.jpg 1600w",
-          ]
-        }
-        style={
-          Object {
-            "display": "block",
-            "left": 379.7,
-            "margin": 2,
-            "position": "absolute",
-            "top": 1453.5,
-          }
-        }
-        title="DSC02427"
-        width={375.7}
-      />
-    </div>
-  </div>
-</Gallery>
+</Stonemason>
 `;

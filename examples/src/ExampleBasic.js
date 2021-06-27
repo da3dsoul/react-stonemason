@@ -1,11 +1,13 @@
 import React from 'react';
-import Gallery from 'react-photo-gallery';
+import Stonemason from 'react-stonemason';
 
-const ExampleBasic = ({photos, title, direction}) => {
+const ExampleBasic = ({title, photos}) => {
     return (
       <div>
         <h2>{title}</h2>
-        <Gallery photos={photos} direction={direction}/>
+        <Stonemason>
+            {photos}
+        </Stonemason>
       </div>
     );
 }

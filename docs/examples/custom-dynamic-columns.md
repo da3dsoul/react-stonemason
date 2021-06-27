@@ -1,6 +1,6 @@
 # Custom Dynamic Columns
 
-By default, the Gallery chooses the amount of columns per row, based on the width of itself. The default columns are:
+By default, the Stonemason chooses the amount of columns per row, based on the width of itself. The default columns are:
 
 ```
 columns = 1;

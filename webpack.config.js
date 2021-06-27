@@ -28,7 +28,7 @@ module.exports = {
   },
   resolve: {
     alias: {
-      'react-photo-gallery': path.resolve(__dirname, 'src/Gallery'),
+      'react-stonemason': path.resolve(__dirname, 'src/Stonemason'),
     }
   },
 };

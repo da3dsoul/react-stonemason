@@ -1,8 +1,8 @@
 import babel from 'rollup-plugin-babel';
 import resolve from 'rollup-plugin-node-resolve';
 
-const name = 'Gallery';
-const path = 'dist/react-photo-gallery';
+const name = 'Stonemason';
+const path = 'dist/react-stonemason';
 const globals = {
 	'prop-types': 'PropTypes',
 	'react-dom': 'ReactDOM',
@@ -24,7 +24,7 @@ const babelOptions = () => {
 
 export default [
 	{
-		input: 'src/Gallery.js',
+		input: 'src/Stonemason.js',
 		output: {
 			file: path + '.esm.js',
 			format: 'es',
@@ -33,7 +33,7 @@ export default [
 		plugins: [babel(babelOptions())],
 	},
 	{
-		input: 'src/Gallery.js',
+		input: 'src/Stonemason.js',
 		output: {
 			name: name,
 			file: path + '.umd.js',

@@ -1,3 +1,5 @@
+#This isn't updated yet, so the following relates to the project this was forked from.
+
 # React Photo Gallery
 
 [![Join the chat at https://gitter.im/react-photo-gallery/Lobby](https://badges.gitter.im/react-photo-gallery/Lobby.svg)](https://gitter.im/react-photo-gallery/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)

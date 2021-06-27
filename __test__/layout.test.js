@@ -1,5 +1,4 @@
-import { ratio } from '../src/utils/ratio';
-import { round } from '../src/utils/round';
+﻿import {getCommonHeight, ratio, round} from '../src/layout';
 
 /*
 import { computeSizes } from '../src/utils';
@@ -14,6 +13,12 @@ describe('the round function', () => {
 
 describe('the ratio function', () => {
   it('width of 3 and height of 4', () => expect(ratio({width:3,height:4})).toBe(0.75));
+  it('width of 800 and height of 600', () => expect(ratio({width:800,height:600})).toBe(1.33));
+  it('width of 1 and height of 1', () => expect(ratio({width:1,height:1})).toBe(1));
+});
+
+describe('getCommonHeight', () => {
+  it('equal height', () => expect(getCommonHeight([{width:3,height:4}, {width:4,height:4}, {width:5,height:4}], 1920, 0)).toBe(640));
   it('width of 800 and height of 600', () => expect(ratio({width:800,height:600})).toBe(1.33));
   it('width of 1 and height of 1', () => expect(ratio({width:1,height:1})).toBe(1));
 });
