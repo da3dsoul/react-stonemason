@@ -48,6 +48,7 @@ const findIdealNodeSearch = ({ targetRowHeight, containerWidth }) => {
 };
 
 export const computeRowLayout = ({ containerWidth, limitNodeSearch, targetRowHeight, margin, photos }) => {
+  const dpiAdjustedWidth = Math.floor(containerWidth / window.devicePixelRatio);
   // allow user to calculate limitNodeSearch from containerWidth
   if (typeof limitNodeSearch === 'function') {
     limitNodeSearch = limitNodeSearch(containerWidth);
@@ -58,8 +59,8 @@ export const computeRowLayout = ({ containerWidth, limitNodeSearch, targetRowHei
   // set how many neighboring nodes the graph will visit
   if (limitNodeSearch === undefined) {
     limitNodeSearch = 2;
-    if (containerWidth >= 450) {
-      limitNodeSearch = findIdealNodeSearch({ containerWidth, targetRowHeight });
+    if (dpiAdjustedWidth >= 450) {
+      limitNodeSearch = findIdealNodeSearch({ containerWidth: dpiAdjustedWidth, targetRowHeight });
     }
   }
   
