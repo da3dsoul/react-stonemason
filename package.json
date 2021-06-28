@@ -1,6 +1,6 @@
 {
   "name": "@da3dsoul/react-stonemason",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A true masonry layout container, with support for child components",
   "main": "dist/react-stonemason.umd.js",
   "module": "dist/react-stonemason.esm.js",
