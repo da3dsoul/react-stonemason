@@ -5,7 +5,7 @@ const ExampleBasic = ({title, photos}) => {
     return (
       <div>
         <h2>{title}</h2>
-        <Stonemason targetRowHeight={4000}>
+        <Stonemason targetRowHeight={1000}>
             {photos}
         </Stonemason>
       </div>

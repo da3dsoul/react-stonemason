@@ -16,7 +16,7 @@ const Stonemason = function Stonemason(props) {
     const observer = new ResizeObserver(entries => {
       // only do something if width changes
       const newWidth = Math.floor(entries[0].contentRect.width);
-      const newHeight = Math.floor(window.outerHeight * window.devicePixelRatio);
+      const newHeight = Math.floor(window.outerHeight);
       if (containerSize.width !== newWidth || containerSize.height !== newHeight) {
         // put in an animation frame to stop "benign errors" from
         // ResizeObserver https://stackoverflow.com/questions/49384120/resizeobserver-loop-limit-exceeded
@@ -39,7 +39,7 @@ const Stonemason = function Stonemason(props) {
   const height = containerSize.height - 1;
   const StonemasonStyle = { display: 'flex', flexWrap: 'wrap', flexDirection: 'row' };
   
-  const targetHeight = props.allowOOB ? targetRowHeight : Math.min(targetRowHeight, height);
+  const targetHeight = props.allowOOB ? targetRowHeight : (typeof targetRowHeight === 'function') ? targetRowHeight : Math.min(targetRowHeight, height);
   photos = computeRowLayout({ containerWidth: width, limitNodeSearch: limitNodeSearch, targetRowHeight: targetHeight, margin: margin, photos: photos });
 
   return (

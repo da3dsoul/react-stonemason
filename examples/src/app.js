@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import jsonp from 'jsonp';
 import ExampleBasic from './ExampleBasic';
 import ExampleInner from "./ExampleInner";
+import photos from "./data.json";
 
 class App extends React.Component {
   constructor() {
@@ -58,6 +59,7 @@ class App extends React.Component {
       return (
         <div className="App">
           <ExampleBasic title={'Basic Row Layout'} photos={this.state.photos.slice(0, 20).map(a => <ExampleInner photo={a} key={a.key || a.src} width={a.width} height={(a.height + 200)} />)} />
+          <ExampleBasic title={'Basic Row Layout'} photos={photos.map(a => <ExampleInner photo={{height:a.height, width:a.width, src:(a.id + ".jpg"), key:a.id, title:a.id}} key={a.id} width={a.width} height={(a.height * 1.1)} />)} />
         </div>
       );
     } else {
