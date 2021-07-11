@@ -1,4 +1,4 @@
-import React, { useState, useLayoutEffect, useRef} from 'react';
+import React, { useState, useEffect, useRef} from 'react';
 import PropTypes from 'prop-types';
 import ResizeObserver from 'resize-observer-polyfill';
 import { computeRowLayout } from './layout';
@@ -11,7 +11,7 @@ const Stonemason = function Stonemason(props) {
   const StonemasonEl = useRef(null);
   let photos = props.children;
 
-  useLayoutEffect(() => {
+  useEffect(() => {
     let animationFrameID = null;
     const observer = new ResizeObserver(entries => {
       // only do something if width changes
