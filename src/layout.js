@@ -17,24 +17,27 @@ export const ratio = (photo) => {
 export const getCommonHeight = (row, containerWidth, margin) => {
   const rowWidth = containerWidth - row.length * (margin * 2);
   const totalAspectRatio = row.reduce((acc, photo) => acc + ratio(photo), 0);
-  return rowWidth / totalAspectRatio;
+  return round(rowWidth / totalAspectRatio);
 };
 
 // calculate the cost of breaking at this node (edge weight)
-export const cost = (photos, i, j, width, targetHeight, margin) => {
+export const cost = (photos, i, j, width, targetHeight, margin, minHeight=0, maxHeight=0) => {
   const row = photos.slice(i, j);
   const commonHeight = getCommonHeight(row, width, margin);
+  // overflow will cause max number, which is relatively fine here
+  if (maxHeight > 0 && commonHeight > maxHeight) return Math.pow(Math.abs(commonHeight - targetHeight), 3);
+  if (minHeight > 0 && commonHeight < minHeight) return Math.pow(Math.abs(commonHeight - targetHeight), 3);
   return Math.pow(Math.abs(commonHeight - targetHeight), 2);
 };
 
 // return function that gets the neighboring nodes of node and returns costs
-const makeGetNeighbors = (targetHeight, containerWidth, photos, limitNodeSearch, margin) => start => {
+const makeGetNeighbors = (targetHeight, containerWidth, photos, limitNodeSearch, margin, minHeight=0, maxHeight=0) => start => {
   const results = {};
   start = +start;
   results[+start] = 0;
   for (let i = start + 1; i < photos.length + 1; ++i) {
     if (i - start > limitNodeSearch) break;
-    results[i.toString()] = cost(photos, start, i, containerWidth, targetHeight, margin);
+    results[i.toString()] = cost(photos, start, i, containerWidth, targetHeight, margin, minHeight, maxHeight);
   }
   return results;
 };
@@ -47,14 +50,7 @@ const findIdealNodeSearch = ({ targetRowHeight, containerWidth }) => {
   return round(rowAR / 1.5) + 8;
 };
 
-export const computeRowLayout = ({ containerWidth, limitNodeSearch, targetRowHeight, margin, photos }) => {
-  // allow user to calculate limitNodeSearch from containerWidth
-  if (typeof limitNodeSearch === 'function') {
-    limitNodeSearch = limitNodeSearch(containerWidth);
-  }
-  if (typeof targetRowHeight === 'function') {
-    targetRowHeight = targetRowHeight(containerWidth);
-  }
+export const computeRowLayout = ({ containerWidth, limitNodeSearch, targetRowHeight, margin, photos, minHeight, maxHeight }) => {
   // set how many neighboring nodes the graph will visit
   if (limitNodeSearch === undefined) {
     limitNodeSearch = 2;
@@ -65,7 +61,7 @@ export const computeRowLayout = ({ containerWidth, limitNodeSearch, targetRowHei
   }
   
   // const t = +new Date();
-  const getNeighbors = makeGetNeighbors(targetRowHeight, containerWidth, photos, limitNodeSearch, margin);
+  const getNeighbors = makeGetNeighbors(targetRowHeight, containerWidth, photos, limitNodeSearch, margin, minHeight, maxHeight);
   let path = findShortestPath(getNeighbors, '0', photos.length);
   path = path.map(node => +node);
   // console.log(`time to find the shortest path: ${(+new Date() - t)} ms`);

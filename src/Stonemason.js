@@ -5,8 +5,10 @@ import { computeRowLayout } from './layout';
 
 const Stonemason = function Stonemason(props) {
   const margin = props.margin;
-  const limitNodeSearch = props.limitNodeSearch;
-  const targetRowHeight = props.targetRowHeight;
+  let limitNodeSearch = props.limitNodeSearch;
+  let targetHeight = props.targetRowHeight;
+  let minRowHeight = props.minRowHeight;
+  let maxRowHeight = props.maxRowHeight;
   const [containerSize, setContainerSize] = useState({width: 0, height: 0});
   const StonemasonEl = useRef(null);
   let photos = props.children;
@@ -38,9 +40,28 @@ const Stonemason = function Stonemason(props) {
   const width = containerSize.width - 1;
   const height = containerSize.height - 1;
   const StonemasonStyle = { display: 'flex', flexWrap: 'wrap', flexDirection: 'row' };
-  
-  const targetHeight = props.allowOOB ? targetRowHeight : (typeof targetRowHeight === 'function') ? targetRowHeight : Math.min(targetRowHeight, height);
-  photos = computeRowLayout({ containerWidth: width, limitNodeSearch: limitNodeSearch, targetRowHeight: targetHeight, margin: margin, photos: photos });
+
+  // allow user to calculate limitNodeSearch from containerWidth
+  if (typeof limitNodeSearch === 'function') {
+    limitNodeSearch = limitNodeSearch(width);
+  }
+
+  if (typeof targetHeight === 'function') {
+    targetHeight = targetHeight(width);
+  } else {
+    targetHeight = props.allowOOB ? targetHeight : Math.min(targetHeight, height);
+  }
+
+  photos = computeRowLayout(
+      {
+        containerWidth: width,
+        limitNodeSearch: limitNodeSearch,
+        targetRowHeight: targetHeight,
+        margin: margin,
+        photos: photos,
+        minHeight: minRowHeight,
+        maxHeight: maxRowHeight
+      });
 
   return (
     <div className="react-stonemason--Stonemason">
@@ -66,14 +87,18 @@ const imagePropType = PropTypes.oneOfType([
 Stonemason.propTypes = {
   children: PropTypes.arrayOf(imagePropType).isRequired,
   targetRowHeight: PropTypes.oneOfType([PropTypes.func, PropTypes.number]),
+  minRowHeight: PropTypes.oneOfType([PropTypes.func, PropTypes.number]),
+  maxRowHeight: PropTypes.oneOfType([PropTypes.func, PropTypes.number]),
   limitNodeSearch: PropTypes.oneOfType([PropTypes.func, PropTypes.number]),
   allowOOB: PropTypes.bool,
-  margin: PropTypes.number
+  margin: PropTypes.number,
 };
 
 Stonemason.defaultProps = {
   margin: 2,
   targetRowHeight: 300,
-  allowOOB: false
+  allowOOB: false,
+  minRowHeight: 0,
+  maxRowHeight: 0
 };
 export default Stonemason;
