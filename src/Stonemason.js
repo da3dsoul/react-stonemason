@@ -9,6 +9,7 @@ const Stonemason = function Stonemason(props) {
   let targetHeight = props.targetRowHeight;
   let minRowHeight = props.minRowHeight;
   let maxRowHeight = props.maxRowHeight;
+  let maxDeviation = props.maxDeviation;
   const [containerSize, setContainerSize] = useState({width: 0, height: 0});
   const StonemasonEl = useRef(null);
   let photos = props.children;
@@ -52,6 +53,10 @@ const Stonemason = function Stonemason(props) {
     targetHeight = props.allowOOB ? targetHeight : Math.min(targetHeight, height);
   }
 
+  if (typeof maxDeviation === 'function') {
+    maxDeviation = maxDeviation(width, targetHeight);
+  }
+
   photos = computeRowLayout(
       {
         containerWidth: width,
@@ -89,9 +94,10 @@ Stonemason.propTypes = {
   targetRowHeight: PropTypes.oneOfType([PropTypes.func, PropTypes.number]),
   minRowHeight: PropTypes.oneOfType([PropTypes.func, PropTypes.number]),
   maxRowHeight: PropTypes.oneOfType([PropTypes.func, PropTypes.number]),
+  maxDeviation: PropTypes.oneOfType([PropTypes.func, PropTypes.number]),
   limitNodeSearch: PropTypes.oneOfType([PropTypes.func, PropTypes.number]),
   allowOOB: PropTypes.bool,
-  margin: PropTypes.number,
+  margin: PropTypes.number
 };
 
 Stonemason.defaultProps = {
@@ -99,6 +105,7 @@ Stonemason.defaultProps = {
   targetRowHeight: 300,
   allowOOB: false,
   minRowHeight: 0,
-  maxRowHeight: 0
+  maxRowHeight: 0,
+  maxDeviation: 1
 };
 export default Stonemason;

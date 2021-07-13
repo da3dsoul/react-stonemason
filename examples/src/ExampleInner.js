@@ -5,7 +5,7 @@ const ExampleInner = (props) => {
     const photo = props.photo
     return (
         <div key={props.key} style={{display: 'flex', flexDirection: 'column', backgroundColor: '#aaaaaa', ...(props.style || {})}}>
-            <img src={photo.src} alt={photo.title} style={{width: '100%', objectFit: 'contain'}}/>
+            <img src={photo.src} alt={photo.title} style={{width: '100%', backgroundColor:'azure', objectFit: 'contain'}}/>
             <h1>{photo.title}</h1>
         </div>
     );
